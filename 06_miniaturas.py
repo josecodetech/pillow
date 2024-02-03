@@ -1,4 +1,4 @@
-from PIL import Image,ImageDraw, ImageFont
+from PIL import Image
 import os
 def crear_miniatura(ruta):
     imagen = Image.open(ruta)
